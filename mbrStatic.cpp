@@ -36,5 +36,15 @@ Void mahasiswa::printAll()
 
 int main ()
 {
+    mahasiswa mhs1("Aldys Ferry");
+    mahasiswa mhs2("Stefany Angelina");
+    mahasiswa mhs3("Ibel Moriarty");
+    mahasiswa mhs4("Giselle Aespa");
+
+    mhs1.printAll();
     
+    mhs2.PrintAll();
+    mhs3.printAll();
+    mhs4.printAll();
+    return 0;
 }
