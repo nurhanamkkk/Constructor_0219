@@ -43,6 +43,9 @@ int main ()
     mahasiswa mhs1("Baskara Hindia");
     mahasiswa mhs2("Juminten Asiap");
 
-    mahasiswa::setNim(9); // memgakses nim melalui static member function "setNim"
-    
+    mahasiswa::setNim(219); // memgakses nim melalui static member function "setNim"
+    mahasiswa mhs3("Unung Meong");
+    mahasiswa mhs4("Wirno Basudara");
+
+    mhs1.printAll();
 }
