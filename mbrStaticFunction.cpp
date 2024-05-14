@@ -48,4 +48,12 @@ int main ()
     mahasiswa mhs4("Wirno Basudara");
 
     mhs1.printAll();
+
+    mhs2.PrintAll();
+    mhs3.printAll();
+    mhs4.printAll();
+
+    cout << "akses dari luar object = " << mahasiswa::getNim() <<endl; // mengakses nim melalui static member function "getNim"
+
+    return 0;
 }
