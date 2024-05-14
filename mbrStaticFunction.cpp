@@ -40,5 +40,9 @@ void mahasiswa::printAll()
 
 int main ()
 {
+    mahasiswa mhs1("Baskara Hindia");
+    mahasiswa mhs2("Juminten Asiap");
+
+    mahasiswa::setNim(9); // memgakses nim melalui static member function "setNim"
     
 }
