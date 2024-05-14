@@ -24,5 +24,10 @@ int mahasiswa::nim = 219;
 
 void mahasiswa::setID()
 {
+    id = ++nim;
+}
+
+Void mahasiswa::printAll()
+{
     
 }
